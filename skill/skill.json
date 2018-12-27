@@ -1,0 +1,602 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "aster caster",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "I changed my mind",
+                        "I don't care anymore",
+                        "Let it be",
+                        "Forget it",
+                        "Never mind",
+                        "Cancel"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "what can I do",
+                        "I need help",
+                        "can you help me",
+                        "help me",
+                        "help"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "shut up",
+                        "off",
+                        "stop"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": [
+                        "Restart",
+                        "Undo",
+                        "Go back"
+                    ]
+                },
+                {
+                    "name": "Horoscope",
+                    "slots": [
+                        {
+                            "name": "sign",
+                            "type": "SIGN",
+                            "samples": [
+                                "My zodiacal sign is {sign}",
+                                "{sign}"
+                            ]
+                        },
+                        {
+                            "name": "when",
+                            "type": "DAY"
+                        }
+                    ],
+                    "samples": [
+                        "Alexa open aster caster and ask for {when} horoscope",
+                        "Alexa open aster caster and ask for my horoscope",
+                        "Alexa ask aster caster what is my horoscope {when}",
+                        "Alexa ask aster caster what is {when} horoscope for {sign}",
+                        "What is going to be {when} horoscope for {sign}",
+                        "What's {when} horoscope for {sign}",
+                        "My daily horoscope",
+                        "My horoscope for {when}",
+                        "My horoscope please",
+                        "What was my horoscope for {when}",
+                        "What's my horoscope for {when}",
+                        "I want my horoscope",
+                        "What is my horoscope for {when}"
+                    ]
+                },
+                {
+                    "name": "Mood",
+                    "slots": [
+                        {
+                            "name": "sign",
+                            "type": "SIGN",
+                            "samples": [
+                                "My zodiacal sign is {sign}",
+                                "My sign is {sign}",
+                                "{sign}"
+                            ]
+                        },
+                        {
+                            "name": "when",
+                            "type": "DAY"
+                        }
+                    ],
+                    "samples": [
+                        "What will my mood be {when} ",
+                        "Alexa ask Aster caster what is my mood {when} ",
+                        "What is my mood {when} ",
+                        "Alexa ask Aster caster what is {sign} mood for {when}   ",
+                        "Alexa ask Aster caster what is my mood for {when}  ",
+                        "what is the mood for {sign}  ",
+                        "Alexa ask aster caster for {sign} mood",
+                        "Alexa ask aster caster for {when} mood for {sign}",
+                        "Alexa open aster caster and ask for {when} mood",
+                        "What is {when} mood  ",
+                        "What is the mood for my sign",
+                        "What is going to be my mood for {when} ",
+                        "What was {when} mood for {sign} ",
+                        "What is {when} mood for {sign}",
+                        "What is my mood for {when}"
+                    ]
+                },
+                {
+                    "name": "Lucky_number",
+                    "slots": [
+                        {
+                            "name": "sign",
+                            "type": "SIGN",
+                            "samples": [
+                                "My sign is {sign}",
+                                "My zodiacal sign is {sign}",
+                                "{sign}"
+                            ]
+                        },
+                        {
+                            "name": "when",
+                            "type": "DAY"
+                        }
+                    ],
+                    "samples": [
+                        "Alexa open Aster caster and ask for {when} lucky number",
+                        "What is {sign} lucky number for {when}",
+                        "Alexa ask Aster caster what is {sign} lucky number for {when}",
+                        "Alexa ask Aster caster what is {when} lucky number for {sign} ",
+                        "Alexa ask Aster caster what is {when} lucky number",
+                        "Alexa ask Aster caster what is my lucky number",
+                        "What is {sign} lucky number",
+                        "What will be {when} lucky number for {sign}",
+                        "What was {when} lucky number for {sign}",
+                        "What is {when} lucky number for {sign}  ",
+                        "What will be {when} lucky number",
+                        "What was {when} lucky number",
+                        "What is {when} lucky number  ",
+                        "What's my lucky number"
+                    ]
+                },
+                {
+                    "name": "Compatibility",
+                    "slots": [
+                        {
+                            "name": "sign",
+                            "type": "SIGN",
+                            "samples": [
+                                "{sign}",
+                                "My zodiacal sign is {sign}",
+                                "My sign is {sign}"
+                            ]
+                        },
+                        {
+                            "name": "when",
+                            "type": "DAY"
+                        }
+                    ],
+                    "samples": [
+                        "Alexa ask Aster caster for {sign} compatibility",
+                        "Alexa ask Aster caster what sign does {sign} match",
+                        "Alexa ask Aster caster what sign does {sign} match {when}  ",
+                        "What sign does {sign} match {when}",
+                        "Alexa ask Aster caster what is {sign} best match",
+                        "What will be my compatibility for {when}",
+                        "Who does {sign} get on {when}   ",
+                        "What is my compatibility for {when} ",
+                        "What is my compatibility ",
+                        "What sign do I get on well {when} ",
+                        "What is the best match for {sign}",
+                        "What is the best match for {sign} {when} ",
+                        "My best match for {when}",
+                        "What is my match {when}"
+                    ]
+                },
+                {
+                    "name": "Color",
+                    "slots": [
+                        {
+                            "name": "sign",
+                            "type": "SIGN",
+                            "samples": [
+                                "My zodiacal sign is {sign}",
+                                "My sign is {sign}",
+                                "{sign}"
+                            ]
+                        },
+                        {
+                            "name": "when",
+                            "type": "DAY"
+                        }
+                    ],
+                    "samples": [
+                        "What is {sign} best color {when}",
+                        "What is {sign} best color ",
+                        "What is the best colour for {when} ",
+                        "What colour should {sign} wear",
+                        "What color should {sign} wear {when}",
+                        "What color should I wear {when}",
+                        "What is today's color for {sign} ",
+                        "Alexa ask Aster caster today's color for {sign}",
+                        "Alexa ask Aster caster for my lucky color for {when} ",
+                        "What is {when} color for {sign} ",
+                        "What is my lucky color for {when} "
+                    ]
+                },
+                {
+                    "name": "Sign_discovery",
+                    "slots": [
+                        {
+                            "name": "date",
+                            "type": "AMAZON.DATE",
+                            "samples": [
+                                "I was born on {date} ",
+                                "{date}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "What zodiacal sign is {date}",
+                        "What sign is {date} ",
+                        "Alexa ask Aster caster what sign is {date}",
+                        "Alexa ask Aster caster for my zodiacal sign",
+                        "What is my zodiacal sign",
+                        "What is my sign",
+                        "If I was born on {date} what is my sign "
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "DAY",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "yesterday",
+                                "synonyms": [
+                                    "Yesterday"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "tomorrow",
+                                "synonyms": [
+                                    "The next day",
+                                    "Tomorrow"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "today",
+                                "synonyms": [
+                                    "This morning",
+                                    "Today",
+                                    "Now"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "SIGN",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "pisces"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": " aquarius"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "capricorn"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sagittarius"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "scorpio"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "libra"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "virgo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "leo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cancer"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "gemini"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "taurus"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "aries"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "dialog": {
+            "intents": [
+                {
+                    "name": "Horoscope",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "sign",
+                            "type": "SIGN",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.1028993138938.1016218629297"
+                            },
+                            "validations": [
+                                {
+                                    "type": "hasEntityResolutionMatch",
+                                    "prompt": "Slot.Validation.1102829393712.654016614222.1367203134900"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "when",
+                            "type": "DAY",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {},
+                            "validations": [
+                                {
+                                    "type": "hasEntityResolutionMatch",
+                                    "prompt": "Slot.Validation.13730875081.763924862173.1380348922527"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Mood",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "sign",
+                            "type": "SIGN",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.1033893808778.649062736667"
+                            }
+                        },
+                        {
+                            "name": "when",
+                            "type": "DAY",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {}
+                        }
+                    ]
+                },
+                {
+                    "name": "Lucky_number",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "sign",
+                            "type": "SIGN",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.1224505039239.1535635670700"
+                            }
+                        },
+                        {
+                            "name": "when",
+                            "type": "DAY",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {}
+                        }
+                    ]
+                },
+                {
+                    "name": "Compatibility",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "sign",
+                            "type": "SIGN",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.1476896353136.575920312826"
+                            }
+                        },
+                        {
+                            "name": "when",
+                            "type": "DAY",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {}
+                        }
+                    ]
+                },
+                {
+                    "name": "Color",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "sign",
+                            "type": "SIGN",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.867949124647.1025734251885"
+                            }
+                        },
+                        {
+                            "name": "when",
+                            "type": "DAY",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {}
+                        }
+                    ]
+                },
+                {
+                    "name": "Sign_discovery",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "date",
+                            "type": "AMAZON.DATE",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.957250572804.1308979564826"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "prompts": [
+            {
+                "id": "Elicit.Slot.1028993138938.1016218629297",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "What zodiacal sign are you interested in?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "What is your zodiacal sign?"
+                    }
+                ]
+            },
+            {
+                "id": "Slot.Validation.1102829393712.654016614222.1367203134900",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Sorry, I'm afraid I don't know that zodiacal sign"
+                    }
+                ]
+            },
+            {
+                "id": "Slot.Validation.13730875081.763924862173.1380348922527",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "I'm sorry. My horoscopes are valid only for today, yesterday and tomorrow."
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.1033893808778.649062736667",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Please, tell me your zodiacal sign"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "What is your zodiacal sign?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.1224505039239.1535635670700",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "What is your zodiacal sign?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "What sign?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "For what zodiacal sign?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "Please, tell me your zodiacal sign"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.1476896353136.575920312826",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "What is your sign?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "What sign?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "What is your zodiacal sign?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.867949124647.1025734251885",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "What zodiacal sign?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "What is your zodiacal sign?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "What sign?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.957250572804.1308979564826",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Please, tell me a date of birth"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "When were you born?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "When is your birthday?"
+                    }
+                ]
+            }
+        ]
+    }
+}
