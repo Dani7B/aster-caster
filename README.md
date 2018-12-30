@@ -5,29 +5,29 @@ This Alexa Skill uses [aztro REST API](https://aztro.readthedocs.io/en/latest/) 
 
 Several intents are available:
 
-* Horoscope:
-    * Result: Today's/Tomorrow's/Yesterday's horoscope for the zodiacal sign you mentioned
-    * Example utterances: "Alexa, ask Aster caster 'what is tomorrow\'s horoscope for Aquarius?'"; "What is my horoscope?"; "What was my horoscope yesterday?".
+* ### Horoscope ###
+    * __Result__: Today's/Tomorrow's/Yesterday's horoscope for the zodiacal sign you mentioned
+    * __Example utterances__: "Alexa, ask Aster caster 'what is tomorrow\'s horoscope for Aquarius?'"; "What is my horoscope?"; "What was my horoscope yesterday?".
 
-* Mood:
-    * Result: Today's/Tomorrow's/Yesterday's mood for the zodiacal sign you mentioned
-    * Example utterances: "Alexa, ask Aster caster 'what is Virgo\'s mood for today?'"; "What's my mood today?"; "What is going to be Cancer\'s mood tomorrow?".
+* ### Mood ###
+    * __Result__: Today's/Tomorrow's/Yesterday's mood for the zodiacal sign you mentioned
+    * __Example utterances__: "_Alexa, ask Aster caster 'what is Virgo\'s mood for today?'_"; "_What's my mood today?_"; "_What is going to be Cancer\'s mood tomorrow?_".
 
-* Lucky number:
-    * Result: Today's/Tomorrow's/Yesterday's lucky number for the zodiacal sign you mentioned
-    * Example utterances: "Alexa, ask Aster caster 'what is today\'s lucky number for Aries?'"; "What's my luck number?"; "What was yesterday's lucky number for Leo?".
+* ### Lucky number ###
+    * __Result__: Today's/Tomorrow's/Yesterday's lucky number for the zodiacal sign you mentioned
+    * __Example utterances__: "_Alexa, ask Aster caster 'what is today\'s lucky number for Aries?'_"; "_What's my luck number?_"; "_What was yesterday's lucky number for Leo?_".
 
-* Compatibility:
-    * Result: Today's/Tomorrow's/Yesterday's best match for the zodiacal sign you mentioned
-    * Example utterances: "Alexa, ask Aster caster 'what is Libra\'s best match?'"; "What sign does Gemini match today?"; "What is my best match?".
+* ### Compatibility ###
+    * __Result__: Today's/Tomorrow's/Yesterday's best match for the zodiacal sign you mentioned
+    * __Example utterances__: "_Alexa, ask Aster caster 'what is Libra\'s best match?'_"; "_What sign does Gemini match today?_"; "_What is my best match?_".
 
-* Color:
-    * Result: Today's/Tomorrow's/Yesterday's color for the zodiacal sign you mentioned
-    * Example utterances: "Alexa, ask Aster caster for my lucky color for today"; "What color should Virgo wear tomorrow?"; "What is Sagittarius\' best color?".
+* ### Color ###
+    * __Result__: Today's/Tomorrow's/Yesterday's color for the zodiacal sign you mentioned
+    * __Example utterances__: "_Alexa, ask Aster caster for my lucky color for today_"; "_What color should Virgo wear tomorrow?_"; "_What is Sagittarius\' best color?_".
 
-* Sign discovery:
-    * Result: Given a date, it returns the corresponding zodiacal sign
-    * Example utterances: "Alexa, ask Aster caster 'what sign is 5th May?'"; "What sign is today?"; "If I were born on 2nd February what would my sign be?".
+* ### Sign discovery ###
+    * __Result__: Given a date, it returns the corresponding zodiacal sign
+    * __Example utterances__: "_Alexa, ask Aster caster 'what sign is 5th May?'_"; "_What sign is today?_"; "_If I were born on 2nd February what would my sign be?_".
 
 - - - -
 
@@ -37,4 +37,4 @@ You will also find in the *skill* folder the JSON file to import the intents int
 
 As I write the documentation down or enhance the skill, I will try to keep this README up-to-date, but if you have any concerns or questions, please let me know.
 
-The skill is currently available in Alexa for English (US) language only. You can test it with utterances like "Alexa, ask Aster caster 'what is my horoscope for today?'" or "Alexa, open Aster caster and ask 'what is Aquarius\' lucky number?'".
+The skill is currently available in Alexa for English (US) language only. You can test it with utterances like "_Alexa, ask Aster caster 'what is my horoscope for today?'_" or "_Alexa, open Aster caster and ask 'what is Aquarius\' lucky number?'_".
