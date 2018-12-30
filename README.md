@@ -5,29 +5,47 @@ This Alexa Skill uses [aztro REST API](https://aztro.readthedocs.io/en/latest/) 
 
 Several intents are available:
 
-### Horoscope ###
+### Horoscope
 * __Result__: Today's/Tomorrow's/Yesterday's horoscope for the zodiacal sign you mentioned
-* __Example utterances__: "Alexa, ask Aster caster 'what is tomorrow\'s horoscope for Aquarius?'"; "What is my horoscope?"; "What was my horoscope yesterday?".
+* __Example utterances__:
+    * "Alexa, ask Aster caster 'what is tomorrow\'s horoscope for Aquarius?'"
+    * "What is my horoscope?"
+    * "What was my horoscope yesterday?"
 
-### Mood ###
+### Mood
 * __Result__: Today's/Tomorrow's/Yesterday's mood for the zodiacal sign you mentioned
-* __Example utterances__: "_Alexa, ask Aster caster 'what is Virgo\'s mood for today?'_"; "_What's my mood today?_"; "_What is going to be Cancer\'s mood tomorrow?_".
+* __Example utterances__:
+    * "_Alexa, ask Aster caster 'what is Virgo\'s mood for today?'_"
+    * "_What's my mood today?_"
+    * "_What is going to be Cancer\'s mood tomorrow?_"
 
-### Lucky number ###
+### Lucky number
 * __Result__: Today's/Tomorrow's/Yesterday's lucky number for the zodiacal sign you mentioned
-* __Example utterances__: "_Alexa, ask Aster caster 'what is today\'s lucky number for Aries?'_"; "_What's my luck number?_"; "_What was yesterday's lucky number for Leo?_".
+* __Example utterances__:
+    * "_Alexa, ask Aster caster 'what is today\'s lucky number for Aries?'_"
+    * "_What's my luck number?_"
+    * "_What was yesterday's lucky number for Leo?_"
 
-### Compatibility ###
+### Compatibility
 * __Result__: Today's/Tomorrow's/Yesterday's best match for the zodiacal sign you mentioned
-* __Example utterances__: "_Alexa, ask Aster caster 'what is Libra\'s best match?'_"; "_What sign does Gemini match today?_"; "_What is my best match?_".
+* __Example utterances__:
+    * "_Alexa, ask Aster caster 'what is Libra\'s best match?'_"
+    * "_What sign does Gemini match today?_"
+    * "_What is my best match?_"
 
-### Color ###
+### Color
 * __Result__: Today's/Tomorrow's/Yesterday's color for the zodiacal sign you mentioned
-* __Example utterances__: "_Alexa, ask Aster caster for my lucky color for today_"; "_What color should Virgo wear tomorrow?_"; "_What is Sagittarius\' best color?_".
+* __Example utterances__:
+    * "_Alexa, ask Aster caster for my lucky color for today_"
+    * "_What color should Virgo wear tomorrow?_"
+    * "_What is Sagittarius\' best color?_"
 
-### Sign discovery ###
+### Sign discovery
 * __Result__: Given a date, it returns the corresponding zodiacal sign
-* __Example utterances__: "_Alexa, ask Aster caster 'what sign is 5th May?'_"; "_What sign is today?_"; "_If I were born on 2nd February what would my sign be?_".
+* __Example utterances__:
+    * "_Alexa, ask Aster caster 'what sign is 5th May?'_"
+    * "_What sign is today?_"
+    * "_If I were born on 2nd February what would my sign be?_"
 
 - - - -
 
